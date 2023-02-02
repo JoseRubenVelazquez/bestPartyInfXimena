@@ -143,7 +143,7 @@ h2{
 .gallery > img:hover {
   filter: grayscale(0);
   z-index: 1;
-  --_t: 1.7;
+  --_t: 1.6;
 }
 
 .gallery > img:nth-child(1) {--_x: calc(-100% - var(--g))}
@@ -325,7 +325,7 @@ footer{
 /*responsive*/
 @media(min-width: 320px) and (max-width: 650px){
   h1{
-    font-size: 40px;
+    font-size: 35px;
     height: 220px;
     color: #fff;
     font-weight: bold;
@@ -443,7 +443,7 @@ footer{
     }
     .img4{
         width: 90px;
-        margin-left: 160px;
+        margin-left: 150px;
     }
     
     .faltan{
@@ -451,7 +451,7 @@ footer{
     }
     .timer{
         display: inline-block;
-        margin: 0 50px;
+        margin: 0 40px;
         color: #fff;
         font-size: 20px;
         position: relative;
